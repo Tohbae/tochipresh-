@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@400;700&display=swap');
+@media screen and (max-width: 1440px){
+body{
+  width: 100%;
+}
+}
+@media screen and (max-width: 700px) and (min-width: 375px) {
+body{
+  width: 50%;
+}
+}
+html, body {
+  height: 100%;
+  width: 1440px;
+}
+#rows{
+  margin-top: 100px;
+  margin-left: 200px;
+  border-radius: 10px;
+  padding: 50px;
+  justify-content: center;
+}
+#rows p, input{
+  font-family: "Lexend deca";
+  font-weight: 400;
+  font-size: 14px;
+}
+#rows h2{
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+}
+.first{
+  color: white;
+  box-sizing: border-box;
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  float: left;
+  width: 20%;
+  border-radius: 10px 0px 0px 10px;
+}
+.first input{
+  border-radius: 50px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  border: 0;
+  color: hsl(31, 77%, 52%);
+}
+.second{
+   color: white;
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+    box-sizing: border-box;
+  float: left;
+  width: 20%;
+}
+.second input{
+  border-radius: 50px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  border: 0;
+  color: hsl(184, 100%, 22%);
+}
+.third{
+   color: white;
+  background-color: hsl(179, 100%, 13%);
+  box-sizing: border-box;
+  padding: 50px;
+  float: left;
+  width: 20%;
+    border-radius: 0px 10px 10px 0px;
+}
+.third input{
+  border-radius: 50px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  border: 0;
+  color: hsl(179, 100%, 13%);
+}
